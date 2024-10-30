@@ -1,0 +1,14 @@
+# Pythonの仮想環境を無視
+.venv/
+
+# PyCharmのIDE設定ファイルを無視
+.idea/
+
+# 環境変数ファイルを無視（機密情報）
+.env
+
+# Python関連ファイルを無視
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
