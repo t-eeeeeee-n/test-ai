@@ -10,3 +10,12 @@ models:
   - name: "gpt2"
     purpose: "english-text-generation"
     local_path: "C:/Users/me/.cache/huggingface/hub/models--gpt2/snapshots/607a30d783dfa663caf39e06633721c8d4cfcd7e"
+
+  - name: "EleutherAI/gpt-neo-1.3B"
+    purpose: "gpt-neo"
+
+  - name: "EleutherAI/gpt-j-6B"
+    purpose: "gpt-j-6B"
+
+  - name: "meta-llama/Llama-2-7b-hf"
+    purpose: "llama-2"
