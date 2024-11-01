@@ -25,5 +25,5 @@ query = """
 response_huggingface = model_util.create_and_query_index(model_type="huggingface", model_name="gpt2", query=query)
 print("Hugging Face Model Response:\n", response_huggingface)
 
-# response_gpt4 = model_util.create_and_query_index(model_type="gpt-4", query=query)
-# print("GPT-4 Model Response:\n", response_gpt4)
+response_gpt4 = model_util.create_and_query_index(model_type="gpt-4", query=query)
+print("GPT-4 Model Response:\n", response_gpt4)

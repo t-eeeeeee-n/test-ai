@@ -44,7 +44,7 @@ def query_gpt4(prompt):
 
 
 # Hugging FaceまたはGPT-4を用いてインデックスを作成し、クエリを実行する
-def create_and_query_index(model_type="huggingface", model_name="gpt-neo", query=""):
+def create_and_query_index(model_type="huggingface", model_name="gpt2", query=""):
     # ドキュメントの読み込み
     documents = SimpleDirectoryReader("data").load_data()
 
