@@ -8,8 +8,15 @@ import requests
 # print("GPT-4 Response:", gpt4_response.json())
 
 # Hugging Face エンドポイントのテスト
-huggingface_response = requests.post(
-    "http://127.0.0.1:5000/api/huggingface-query/",
-    json={"question": "AIの仕組みについて説明してください"}
+# huggingface_response = requests.post(
+#     "http://127.0.0.1:5000/api/huggingface-query/",
+#     json={"question": "AIの仕組みについて説明してください"}
+# )
+# print("Hugging Face Response:", huggingface_response.json())
+
+# data organize エンドポイントのテスト
+data_organize_response = requests.post(
+    "http://127.0.0.1:5000/api/data-organize/",
 )
-print("Hugging Face Response:", huggingface_response.json())
+print("Data Organize Response:", data_organize_response.json())
+
