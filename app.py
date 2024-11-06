@@ -11,6 +11,12 @@ def create_app():
     # エンドポイントの登録
     app.register_blueprint(gpt4_bp, url_prefix="/api/gpt4-query")
     app.register_blueprint(huggingface_bp, url_prefix="/api/huggingface-query")
+
+    # test
+    @app.route("/")
+    def home():
+        return "Welcome to the API service"
+
     return app
 
 if __name__ == "__main__":

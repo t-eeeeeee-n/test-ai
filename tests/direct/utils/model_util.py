@@ -9,8 +9,6 @@ from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.llms.openai import OpenAI
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
-from utils import util
-
 
 # Hugging FaceのLLMの初期化
 def load_huggingface_model(model_name: str):
